@@ -5,6 +5,7 @@
 - [About](#about)
 - [How to prepare your enviroment](#how-to-prepare-your-enviroment)
 - [How to use](#how-to-use)
+- [Example usage](#example-usage)
 - [License](#license)
 - [Contributing](#contributing)
 - [Contact](#contact)
@@ -15,7 +16,7 @@ This project was created as a challenge. It was built with React&TypeScript and 
 
 ## How to prepare your enviroment
 
-0. Make sure you have [Node.js](https://nodejs.org/en/) and [Git](https://git-scm.com/) installed.
+0. Make sure you have [Node.js](https://nodejs.org/en/) (more precisely, npm) and [Git](https://git-scm.com/) installed.
 1. Clone (download) the repository:
 
 ```
@@ -64,6 +65,10 @@ npm start
 5. Click on play (when available) to play the track demo.
 6. Press "ESC" or click on the "X" to go back to the album list.
 
+## Example usage
+
+https://user-images.githubusercontent.com/69123486/229541898-f1336765-3741-4798-964b-d4acd16fee28.mp4
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -77,5 +82,7 @@ Contributions are what make the open source community such an amazing place to b
 Feel free to contact me through issues, discussion, e-mail or LinkedIn.
 
 E-mail: ariel.maj@hotmail.com
+
 GitHub: https://github.com/ArielMAJ
+
 LinkedIn: https://www.linkedin.com/in/arielalmeida/
