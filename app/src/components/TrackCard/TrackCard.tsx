@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./TrackCard.css";
 
 function TrackCard(params: { track: any }) {

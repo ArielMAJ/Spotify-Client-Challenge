@@ -1,12 +1,10 @@
 import React, { useState } from "react";
-import ArtistCard from "../ArtistCard/OpenableCard";
 import "./SearchBar.css";
 import token from "../../assets/.secrets.json";
 import OpenableCard from "../ArtistCard/OpenableCard";
 
 function SearchBar() {
   const [searchQuery, setSearchQuery] = useState("");
-  const [apiKey, setApiKey] = useState(token["token"]);
   const [results, setResults] = useState([]);
 
   function handleSubmit(event) {
@@ -21,7 +19,7 @@ function SearchBar() {
       const apiURL = `https://api.spotify.com/v1/search?q=${searchQuery}&type=${type}&limit=${limit}&offset=${offset}&include_external=audio`; //&market=${market}
 
       const headers = new Headers();
-      headers.append("Authorization", `Bearer ${apiKey}`);
+      headers.append("Authorization", `Bearer ${token["token"]}`);
 
       fetch(apiURL, {
         method: "GET",

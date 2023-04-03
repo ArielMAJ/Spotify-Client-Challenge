@@ -28,9 +28,11 @@ function Modal(props) {
           if (content) content.appendChild(container);
           container.href = track["external_urls"]["spotify"];
           container.target = "_blank";
+          container.rel = "noreferrer";
           ReactDOM.createRoot(container as HTMLElement).render(
             <TrackCard track={track} />
           );
+          return null;
         });
       })
       .catch((error) => {
@@ -40,7 +42,7 @@ function Modal(props) {
   const body = document.getElementById("body");
   if (body) body.style.overflow = "hidden";
   handleOpenEvent();
-  
+
   function esc(event) {
     if (event.key === "Escape") props.handleCloseModal();
   }
@@ -50,7 +52,7 @@ function Modal(props) {
 
   return (
     <div className="modal flex-container flex-column">
-      <a href={props.result["external_urls"]["spotify"]} target="_blank">
+      <a href={props.result["external_urls"]["spotify"]} target="_blank" rel="noreferrer">
         <ArtistCard result={props.result} />
       </a>
       <button className="modal-close" onClick={props.handleCloseModal}>
