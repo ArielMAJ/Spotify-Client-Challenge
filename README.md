@@ -67,6 +67,8 @@ npm start
 
 ## Example usage
 
+P.S. Don't forget to turn on your speakers to listen to a beautiful song!
+
 https://user-images.githubusercontent.com/69123486/229541898-f1336765-3741-4798-964b-d4acd16fee28.mp4
 
 ## License
