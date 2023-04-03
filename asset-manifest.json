@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Spotify-Client-Challenge/static/css/main.1a2f8000.css",
-    "main.js": "/Spotify-Client-Challenge/static/js/main.61a6a543.js",
+    "main.js": "/Spotify-Client-Challenge/static/js/main.29420831.js",
     "index.html": "/Spotify-Client-Challenge/index.html",
     "main.1a2f8000.css.map": "/Spotify-Client-Challenge/static/css/main.1a2f8000.css.map",
-    "main.61a6a543.js.map": "/Spotify-Client-Challenge/static/js/main.61a6a543.js.map"
+    "main.29420831.js.map": "/Spotify-Client-Challenge/static/js/main.29420831.js.map"
   },
   "entrypoints": [
     "static/css/main.1a2f8000.css",
-    "static/js/main.61a6a543.js"
+    "static/js/main.29420831.js"
   ]
 }
