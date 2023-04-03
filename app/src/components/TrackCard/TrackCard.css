@@ -4,8 +4,8 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  width: 400px;
-  max-width: 90vw;
+  min-width: 35vw;
+  max-width: 80vw;
   min-height: 10vh;
   margin: 5vh auto;
   padding: 10px;
@@ -20,4 +20,8 @@
 
 .track-card:active {
   box-shadow: 0 0 7px 1px rgb(104, 232, 255);
+}
+
+audio {
+  max-width: 100%;
 }
