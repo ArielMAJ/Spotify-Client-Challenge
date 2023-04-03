@@ -31,7 +31,10 @@ function SearchBar() {
           if (response.ok) {
             return response.json();
           }
-          throw new Error("Network response was not ok.");
+          if (response.status === 401) alert("Error: 401. The authorization access token has expired.");
+          else alert("Error: " + response.status.toString());
+
+          throw new Error("Error: " + response.status.toString());
         })
         .then((data) => {
           setResults(data["albums"]["items"]);
