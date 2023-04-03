@@ -1,0 +1,17 @@
+.searchBar {
+  padding: 10px;
+  font-size: large;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 70vw;
+  height: 40px;
+  margin-top: 10vh;
+  background-color: #fff;
+  border-radius: 20vw;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+form {
+  text-align: center;
+}

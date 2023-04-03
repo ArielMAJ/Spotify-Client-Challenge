@@ -1,0 +1,23 @@
+.artist-card {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  max-width: 90vw;
+  height: 15vh;
+  margin: 5vh auto;
+  padding: 0 30px;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 1);
+}
+
+.artist-card:hover {
+  box-shadow: 0 0 10px 3px rgb(0, 0, 0);
+}
+
+.artist-card:active {
+  box-shadow: 0 0 7px 1px rgb(104, 232, 255);
+}
