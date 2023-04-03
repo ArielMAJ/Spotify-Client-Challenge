@@ -4,11 +4,12 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  width: 500px;
-  max-width: 90vw;
-  height: 15vh;
+  min-width: 30vw;
+  max-width: 85vw;
+  min-height: 80px;
+  max-height: 150px;
   margin: 5vh auto;
-  padding: 0 30px;
+  padding: 5px 30px;
   background-color: #fff;
   border-radius: 20px;
   box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 1);
